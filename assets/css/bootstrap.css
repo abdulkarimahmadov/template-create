@@ -1,0 +1,313 @@
+/*!
+ * Bootstrap v2.3.0
+ * Copyright 2012 Twitter, Inc
+ * Licensed under the Apache License v2.0
+ */
+
+/* Reset and Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333333;
+  background-color: #ffffff;
+}
+
+/* Links */
+a {
+  color: #0088cc;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: #005580;
+  text-decoration: underline;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  margin: 10px 0;
+  font-family: inherit;
+  font-weight: bold;
+  line-height: 20px;
+  color: inherit;
+  text-rendering: optimizelegibility;
+}
+
+h1 {
+  font-size: 38.5px;
+  line-height: 40px;
+}
+
+h2 {
+  font-size: 31.5px;
+  line-height: 40px;
+}
+
+h3 {
+  font-size: 24.5px;
+  line-height: 40px;
+}
+
+h4 {
+  font-size: 17.5px;
+  line-height: 20px;
+}
+
+h5 {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+h6 {
+  font-size: 11.9px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+p {
+  margin: 0 0 10px;
+}
+
+/* Grid System */
+.container {
+  width: 940px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container:before,
+.container:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+.container:after {
+  clear: both;
+}
+
+.row {
+  margin-left: -20px;
+}
+
+.row:before,
+.row:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+.row:after {
+  clear: both;
+}
+
+[class*="span"] {
+  float: left;
+  min-height: 1px;
+  margin-left: 20px;
+}
+
+.span12 {
+  width: 940px;
+}
+
+.span11 {
+  width: 860px;
+}
+
+.span10 {
+  width: 780px;
+}
+
+.span9 {
+  width: 700px;
+}
+
+.span8 {
+  width: 620px;
+}
+
+.span7 {
+  width: 540px;
+}
+
+.span6 {
+  width: 460px;
+}
+
+.span5 {
+  width: 380px;
+}
+
+.span4 {
+  width: 300px;
+}
+
+.span3 {
+  width: 220px;
+}
+
+.span2 {
+  width: 140px;
+}
+
+.span1 {
+  width: 60px;
+}
+
+/* Forms */
+input,
+textarea,
+select,
+button {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="search"],
+textarea {
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+input[type="submit"],
+button,
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  user-select: none;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+
+.btn-primary:hover {
+  background-color: #286090;
+  border-color: #204d74;
+}
+
+/* Navigation */
+.navbar {
+  overflow: visible;
+  margin-bottom: 20px;
+}
+
+.navbar-form {
+  margin: 5px 0;
+}
+
+.navbar-form .search-form_it {
+  display: inline-block;
+  width: auto;
+  vertical-align: middle;
+}
+
+/* Utilities */
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.pull-left {
+  float: left !important;
+}
+
+.pull-right {
+  float: right !important;
+}
+
+.hidden-phone {
+  display: block !important;
+}
+
+@media (max-width: 767px) {
+  .hidden-phone {
+    display: none !important;
+  }
+}
+
+/* Lists */
+ul, ol {
+  padding: 0;
+  margin: 0 0 10px 25px;
+}
+
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+  margin-bottom: 0;
+}
+
+.nav {
+  margin-bottom: 20px;
+  margin-left: 0;
+  list-style: none;
+}
+
+.nav > li > a {
+  display: block;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+  text-decoration: none;
+  background-color: #eeeeee;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+
+/* Tables */
+table {
+  max-width: 100%;
+  background-color: transparent;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
