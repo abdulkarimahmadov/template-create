@@ -1,0 +1,26 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Backup files
+*.bak
+*.backup
+
+# Logs
+*.log
+
+# Dependencies (if using npm/node later)
+node_modules/
+package-lock.json
+
+# Build files
+dist/
+build/
