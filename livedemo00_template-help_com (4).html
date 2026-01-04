@@ -67,7 +67,23 @@
 	 CURRENT_THEME = &#39;theme48844&#39;
     </script>
     <style type="text/css">
-      body { background-color:#262626 }
+      /* Fixed: Changed dark background to white to prevent black screen issue */
+      body { 
+        background-color: #ffffff;
+        color: #333333;
+        font-family: Arial, sans-serif;
+      }
+      /* Ensure content is visible even when external CSS fails to load */
+      .main-holder {
+        background-color: #ffffff;
+      }
+      a {
+        color: #0066cc;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
     </style>
     <style type="text/css">
       h1 { font: bold 30px/35px Open Sans;  color:#000000; }
