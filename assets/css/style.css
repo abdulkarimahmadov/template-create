@@ -1,0 +1,209 @@
+/* Main Theme Styles */
+
+/* Menu Styles */
+.sf-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sf-menu ul {
+  position: absolute;
+  top: -999em;
+  width: 200px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sf-menu li {
+  float: left;
+  position: relative;
+}
+
+.sf-menu a {
+  display: block;
+  position: relative;
+  padding: 10px 15px;
+}
+
+.sf-menu li:hover ul,
+.sf-menu li.sfHover ul {
+  left: 0;
+  top: 100%;
+  z-index: 99;
+}
+
+.sf-menu ul li {
+  width: 100%;
+}
+
+.sf-menu ul li a {
+  padding: 10px 15px;
+}
+
+.sf-menu > li > a {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.sub-menu {
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+/* Header */
+header {
+  background: #262626;
+  padding: 20px 0;
+}
+
+.logo {
+  float: left;
+}
+
+.logo_h__txt,
+.logo_link {
+  text-decoration: none;
+  display: block;
+}
+
+/* Search Form */
+.search-form {
+  float: right;
+}
+
+.search-form_it {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+}
+
+.search-form_is {
+  padding: 5px 10px;
+  margin-left: 5px;
+}
+
+/* Content */
+.content-holder {
+  padding: 20px 0;
+}
+
+.motopress-wrapper {
+  min-height: 400px;
+}
+
+/* Slider */
+#slider-wrapper {
+  margin-bottom: 30px;
+}
+
+.slider {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Footer */
+footer {
+  background: #f5f5f5;
+  padding: 30px 0;
+  margin-top: 40px;
+}
+
+.footer-nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-nav li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+/* Widgets */
+.widget {
+  margin-bottom: 30px;
+}
+
+.widget-title {
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.widget ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.widget li {
+  padding: 5px 0;
+  border-bottom: 1px solid #eee;
+}
+
+/* Posts */
+.post {
+  margin-bottom: 30px;
+}
+
+.post-title {
+  margin-bottom: 10px;
+}
+
+.post-meta {
+  color: #999;
+  font-size: 12px;
+  margin-bottom: 15px;
+}
+
+.post-content {
+  line-height: 1.6;
+}
+
+/* Sidebar */
+.sidebar {
+  padding-left: 20px;
+}
+
+/* Menu Items */
+.menu-item {
+  list-style: none;
+}
+
+.current-menu-item > a,
+.current-menu-ancestor > a {
+  color: #000;
+  font-weight: bold;
+}
+
+/* Edit Mode */
+.edit1 {
+  padding: 20px 0;
+}
+
+/* Miscellaneous */
+.alignleft {
+  float: left;
+  margin: 0 20px 20px 0;
+}
+
+.alignright {
+  float: right;
+  margin: 0 0 20px 20px;
+}
+
+.aligncenter {
+  display: block;
+  margin: 0 auto 20px;
+}
+
+.wp-caption {
+  max-width: 100%;
+}
+
+.wp-caption-text {
+  font-size: 12px;
+  font-style: italic;
+  margin-top: 5px;
+}

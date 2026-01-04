@@ -1,0 +1,58 @@
+/* Responsive CSS for Bootstrap */
+
+@media (max-width: 979px) {
+  body {
+    padding-top: 0;
+  }
+  
+  .container {
+    width: auto;
+    padding: 0 20px;
+  }
+  
+  [class*="span"] {
+    float: none;
+    display: block;
+    width: auto;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  body {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  
+  .container {
+    width: auto;
+  }
+  
+  .row {
+    margin-left: 0;
+  }
+  
+  [class*="span"] {
+    float: none;
+    width: 100%;
+    margin-left: 0;
+  }
+  
+  .hidden-phone {
+    display: none !important;
+  }
+  
+  .navbar-form {
+    margin: 10px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  input[type="text"],
+  input[type="password"],
+  input[type="email"],
+  input[type="search"],
+  textarea {
+    width: 100%;
+  }
+}
